@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 'guestbook-uivg3{{.global.tvalue}}'
+  name: 'guestbook-uivg3{{.value.tvalue}}'
 spec:
   replicas: 1
   revisionHistoryLimit: 3
