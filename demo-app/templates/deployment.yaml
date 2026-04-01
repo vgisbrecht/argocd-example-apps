@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{.Values.namesuffix}}
+  name: {{.Values.namesuffix1}}
   namespace: {{ .Values.namespace }}
   labels:
     {{- include "demo-app.labels" . | nindent 4 }}
